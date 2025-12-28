@@ -1,0 +1,32 @@
+# ملفات PHP
+*.log
+*.cache
+*.tmp
+
+# ملفات بيانات المستخدمين (حساسة - لا ترفعها!)
+user_data.json
+messages.json
+bot_stats.json
+
+# ملفات البيئة
+.env
+config.php
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# النظام
+.DS_Store
+Thumbs.db
+
+# خوادم
+node_modules/
+vendor/
+
+# صور مؤقتة
+*.jpg
+*.png
+*.gif
